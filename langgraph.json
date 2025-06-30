@@ -1,0 +1,12 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "simple_graph": "./src/graphs/simple_graph.py:graph",
+        "chat_with_tools": "./src/graphs/chat_with_tools.py:chat_model_graph",
+        "react_chat_agent": "./src/graphs/react_chat_agent.py:chat_model_graph"
+    },
+    "env": ".env",
+    "image_distro": "wolfi"
+}

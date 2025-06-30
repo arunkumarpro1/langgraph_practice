@@ -1,0 +1,23 @@
+[project]
+name = "langgraph-basics"
+version = "0.1.0"
+description = "Practice project for langgraph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-community>=0.3.25",
+    "langchain-core>=0.3.65",
+    "langchain-openai>=0.3.24",
+    "langchain-tavily>=0.2.3",
+    "langgraph>=0.4.8",
+    "langgraph-checkpoint-sqlite>=2.0.10",
+    "langgraph-cli[inmem]>=0.3.3",
+    "langgraph-prebuilt>=0.2.2",
+    "langgraph-sdk>=0.1.70",
+    "langsmith>=0.3.45",
+    "notebook>=7.4.3",
+    "tavily-python>=0.7.7",
+    "trustcall>=0.0.39",
+    "wikipedia>=1.4.0",
+]
